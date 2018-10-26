@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="mobileui/style.css">
+        <meta name="format-detection" content="telephone=no">
+        <meta charset="utf-8">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+		<!------ Include the above in your HEAD tag ---------->
+
+        <title>Music Box</title>
+    </head>
+    <body>
+
+		<form class="form-horizontal">
+		<fieldset>
+
+		<!-- Form Name -->
+		<div align="center">
+			<legend>Cadastro do Usuário</legend>
+		</div>
+
+		<!-- Text input-->
+		<div class="form-group">
+		  <label class="col-md-4 control-label" for="idNome" color="white">Nome</label>  
+		  <div class="col-md-5">
+		  <input id="idNome" name="idNome" type="text" placeholder="Nome do usuário" class="form-control input-md">
+			
+		  </div>
+		</div>
+
+		<!-- Text input-->
+		<div class="form-group">
+		  <label class="col-md-4 control-label" for="idEmail">Email</label>  
+		  <div class="col-md-5">
+		  <input id="idEmail" name="idEmail" type="email" placeholder="Email" class="form-control input-md">
+			
+		  </div>
+		</div>
+
+		<!-- Password input-->
+		<div class="form-group">
+		  <label class="col-md-4 control-label" for="idSenha">Senha</label>
+		  <div class="col-md-5">
+			<input id="idSenha" name="idSenha" type="password" placeholder="Digite a senha" class="form-control input-md">
+			
+		  </div>
+		</div>
+
+		<!-- Button (Double) -->
+		<div class="form-group">
+		  <label class="col-md-4 control-label" for="idConfirmar"></label>
+		  <div align = "center">
+			<a href="#" id="idConfirmar" name="idConfirmar" class="btn btn-primary">
+				Confirmar
+			</a>
+			<a href="index.html" class="btn btn-danger" id="idCancelar" name="idCancelar">
+				Cancelar
+			</a>
+		  </div>
+		</div>
+
+		</fieldset>
+		</form>
+
+      <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="mobileui/mobileui.js"></script>
+    </body>
+</html>
