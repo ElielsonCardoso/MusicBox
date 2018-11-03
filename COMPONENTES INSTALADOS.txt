@@ -1,0 +1,17 @@
+﻿*PRIMEIRA VEZ QUE BAIXAR O APP
+
+
+entrar na pasta do app (MusicBox) pelo cmd:
+  npm install -g cordova
+  
+	npm install -g mobileui
+
+ 
+	mobileui install template cordova-blank
+2 
+
+
+Componentes:
+	mobileui install header
+
+	mobileui install input

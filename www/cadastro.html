@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <link rel="stylesheet" type="text/css" href="mobileui/style.css">
+    <link rel="stylesheet" type="text/css" href="mobileui/cadastro.css">
         <meta name="format-detection" content="telephone=no">
         <meta charset="utf-8">
         <meta name="msapplication-tap-highlight" content="no">
@@ -12,59 +12,54 @@
 		<!------ Include the above in your HEAD tag ---------->
 
         <title>Music Box</title>
-    </head>
-    <body>
-
-		<form class="form-horizontal">
-		<fieldset>
-
-		<!-- Form Name -->
-		<div align="center">
-			<legend>Cadastro do Usuário</legend>
-		</div>
-
-		<!-- Text input-->
-		<div class="form-group">
-		  <label class="col-md-4 control-label" for="idNome" color="white">Nome</label>  
-		  <div class="col-md-5">
-		  <input id="idNome" name="idNome" type="text" placeholder="Nome do usuário" class="form-control input-md">
+		</head>
+		
+		<body style="background-color: #696969"> <!--384962-->
 			
-		  </div>
-		</div>
+			<h1 class="align-center"></h1>
+			<div class="space"></div>
 
-		<!-- Text input-->
-		<div class="form-group">
-		  <label class="col-md-4 control-label" for="idEmail">Email</label>  
-		  <div class="col-md-5">
-		  <input id="idEmail" name="idEmail" type="email" placeholder="Email" class="form-control input-md">
+			<h1 class="titulo">Cadastro</h1>
+
+			<div class="space-big"></div>
+
+
+			<div class="list">
+				<!--NOME-->
+				<div class="item label-float">
+					<label>Nome</label>
+					<input type="text">
+				</div>
+				<!---->
+
+				<!--EMAIL-->
+				<div class="item label-float">
+					<label>Email</label>
+					<input type="text">
+				</div>
+				<!--TERMINA EMAIL-->
+
+				
+			<!--SENHA-->
+			<div class="item label-float">
+					<label>Senha</label>
+					<input type="password">
+			</div>
+			<!--TERMINA SENHA-->
+
+			<!--CONFIRMA SENHA-->
+			<div class="item label-float">
+					<label>Confirma senha</label>
+					<input type="password">
+			</div>
+			<!--TERMINA CONFIRMA-->
+			</div>
 			
-		  </div>
-		</div>
+			<div class="space"></div>
 
-		<!-- Password input-->
-		<div class="form-group">
-		  <label class="col-md-4 control-label" for="idSenha">Senha</label>
-		  <div class="col-md-5">
-			<input id="idSenha" name="idSenha" type="password" placeholder="Digite a senha" class="form-control input-md">
-			
-		  </div>
-		</div>
-
-		<!-- Button (Double) -->
-		<div class="form-group">
-		  <label class="col-md-4 control-label" for="idConfirmar"></label>
-		  <div align = "center">
-			<a href="#" id="idConfirmar" name="idConfirmar" class="btn btn-primary">
-				Confirmar
-			</a>
-			<a href="index.html" class="btn btn-danger" id="idCancelar" name="idCancelar">
-				Cancelar
-			</a>
-		  </div>
-		</div>
-
-		</fieldset>
-		</form>
+	<div class="wrapper">			
+		<button class="button" style="vertical-align:middle"><span>Criar Conta </span></button>
+	</div>
 
       <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="mobileui/mobileui.js"></script>
