@@ -1,67 +1,52 @@
+
 <!DOCTYPE html>
-<html>
-    <head>
-    <link rel="stylesheet" type="text/css" href="mobileui/cadastro.css">
-        <meta name="format-detection" content="telephone=no">
-        <meta charset="utf-8">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-		<!------ Include the above in your HEAD tag ---------->
+<html lang="en">
+<head>
+	<!-- Meta tags -->
+	<title>MusicBox</title>
+	<meta name="keywords" content="Apps Login Form Responsive widget, Flat Web Templates, Android Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/cadastro.css">
+	<!-- google fonts  -->
+	<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
+</head>
+<body style="background-color: #13caca">
 
-        <title>Music Box</title>
-		</head>
-		
-		<body style="background-color: #696969"> <!--384962-->
-			
-			<h1 class="align-center"></h1>
-			<div class="space"></div>
+    <br><br><br>
 
-			<h1 class="titulo">Cadastro</h1>
+	<div class="agile-login">
+		<div class="wrapper">
+			<h2>Sign In</h2>
+			<div class="w3ls-form">
+				<form action="/" method="post">
 
-			<div class="space-big"></div>
+					<label>NAME</label>
+					<input type="text" name="name" placeholder="Name" required/>
+					<label>EMAIL</label>
+					<input type="text" name="email" placeholder="Email" required />
 
-
-			<div class="list">
-				<!--NOME-->
-				<div class="item label-float">
-					<label>Nome</label>
-					<input type="text">
-				</div>
-				<!---->
-
-				<!--EMAIL-->
-				<div class="item label-float">
-					<label>Email</label>
-					<input type="text">
-				</div>
-				<!--TERMINA EMAIL-->
-
+					<label>Password</label>
+					<input type="text" name="password" placeholder="Password" required />
+					
+					<label>Comfirm Password</label>
+                    <input type="text" name="password" placeholder="Comfirm Password" required />
 				
-			<!--SENHA-->
-			<div class="item label-float">
-					<label>Senha</label>
-					<input type="password">
-			</div>
-			<!--TERMINA SENHA-->
+                    <input type="submit" value="Criar Conta" />
 
-			<!--CONFIRMA SENHA-->
-			<div class="item label-float">
-					<label>Confirma senha</label>
-					<input type="password">
+                    
+				</form>
 			</div>
-			<!--TERMINA CONFIRMA-->
-			</div>
-			
-			<div class="space"></div>
-
-	<div class="wrapper">			
-		<button class="button" style="vertical-align:middle"><span>Criar Conta </span></button>
+            <br>
+        </div>
+        
+        <br>
 	</div>
-
-      <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="mobileui/mobileui.js"></script>
-    </body>
+	
+</body>
 </html>
