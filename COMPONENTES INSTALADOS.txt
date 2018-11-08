@@ -15,3 +15,5 @@ Componentes:
 	mobileui install header
 
 	mobileui install input
+
+	mobileui instal swipper
