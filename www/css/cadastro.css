@@ -12,7 +12,7 @@ body {
 
 }
 body a {
-	color:red;
+	color:black;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -343,4 +343,13 @@ input[type="text"] {
 .auxiliar_img3{
     width: 27%;
     height: 27%;
+}
+
+td,th{
+    padding: 30px;
+}
+
+table#t01{
+    width: 100px;
+    text-align: center;
 }
