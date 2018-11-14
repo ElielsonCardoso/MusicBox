@@ -19,3 +19,7 @@ Componentes:
 	mobileui instal swipper
 
 	mobileui install cover
+
+	mobileui install chartist
+
+	mobileui install progress-circle
