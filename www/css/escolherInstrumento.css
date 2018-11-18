@@ -53,3 +53,39 @@
 	text-align: center;
 	color: #ef4242;
 }
+
+.alinhaEstatistica{
+    position: relative; 
+    top: 80px; 
+    left: 0px;
+  }
+  
+  .alinhaPontos{
+    position: relative; 
+    top: 150px; 
+    left: 70px;
+  }
+  
+  .alinhaErros{
+    position: relative; 
+    top: 50px; 
+    left: 20px;
+  }
+  
+  .alinhaAcertos{
+    position: relative; 
+    top: 205px; 
+    left: 200px;
+  }
+  
+  .alinhaProximaAula{
+    position: relative; 
+    top: 165px; 
+    left: 185px;
+  }
+  
+  .alinhaRepetir{
+   position: relative; 
+   top: 113px; 
+   left: 10px;
+  }
