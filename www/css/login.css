@@ -9,8 +9,6 @@
 body {
 	padding: 0;
 	margin: 0;
-	background: ;
-
 }
 body a {
 	color:red;
@@ -59,9 +57,15 @@ a:focus, a:hover {
 }
 /*-- //Reset-Code --*/
 body{
-	background: url('../img/login3.jpg') no-repeat;
-    background-size: cover;
     min-height: 100vh;
+}
+
+.bg{
+    background-image: url(/img/login3.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .agile-login {
 
